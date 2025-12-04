@@ -1,0 +1,29 @@
+{
+  "name": "cardapio-api",
+  "version": "1.0.0",
+  "main": "server.js",
+  "description": "API REST para gerenciamento de cardápio digital com Node.js e Express",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cardapio",
+    "menu",
+    "api",
+    "express",
+    "nodejs"
+  ],
+  "author": "Seu Nome",
+  "license": "ISC",
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1"
+  }
+}
