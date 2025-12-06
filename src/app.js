@@ -1,4 +1,3 @@
-// 🛠 APP: Configurações Globais do Express e CORS
 // Responsável por inicializar a aplicação e configurar middlewares
 
 const express = require('express');
@@ -20,8 +19,7 @@ app.use(express.json());
 app.use(cors({
   origin: [
     'http://localhost:4200',        // Desenvolvimento local Angular
-    'http://localhost:3000',        // Desenvolvimento local alternativo
-    'https://*.vercel.app',         // Qualquer subdomínio do Vercel
+    'http://localhost:3000',        // Desenvolvimento local alternativo (para o caso de desenvolvimento em Next, por exemplo)
     process.env.FRONTEND_URL        // URL do front-end em produção (se definida)
   ],
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
