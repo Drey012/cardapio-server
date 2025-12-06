@@ -31,7 +31,7 @@ const menuData = [
     descricao: "Laço de fita gorgurão com detalhe em tule com glitter e aplique brilho diamante no bico de pato",
     preco: 16.50,
     categoria: "Laços",
-    imagens: []
+    imagens: ["Nanda.jpg"]
   },
   {
     id: 5,
@@ -47,7 +47,7 @@ const menuData = [
     descricao: "Kit contendo um porta coque e um laço combinando, cor sob encomenda",
     preco: 20.00,
     categoria: "Kit",
-    imagens: []
+    imagens: ["PortaCoque.jpg"]
   },
   {
     id: 7,
