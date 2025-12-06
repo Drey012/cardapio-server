@@ -112,7 +112,6 @@ router.get('/categorias/lista', (req, res) => {
   }
 });
 
-// IMPORTANTE: rota dinâmica `/:id` deve ficar após todas as rotas mais específicas
 router.get('/:id', (req, res) => {
   try {
     const item = menuController.getItemById(req.params.id);

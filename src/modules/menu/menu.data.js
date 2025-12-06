@@ -15,7 +15,7 @@ const menuData = [
     descricao: "Flor feita de fita gorgurão, aplique strass no bico de pato 5,5cm",
     preco: 13.00,
     categoria: "Laços",
-    imagens: []
+    imagens: ["RosaNoBico.jpg"]
   },
   {
     id: 3,
@@ -23,7 +23,7 @@ const menuData = [
     descricao: "Laço feito com cetim grosso bordado no bico de pato",
     preco: 15.00,
     categoria: "Laços",
-    imagens: []
+    imagens: ["PaulaBordado.jpg"]
   },
   {
     id: 4,
@@ -39,7 +39,7 @@ const menuData = [
     descricao: "Laço feito em fita gorgurão no bico de pato",
     preco: 12.00,
     categoria: "Laços",
-    imagens: []
+    imagens: ["PaulaNormal.jpg"]
   },
   {
     id: 6,
@@ -55,7 +55,7 @@ const menuData = [
     descricao: "Laço de 8cm com bico de pato",
     preco: 12.00,
     categoria: "Laços",
-    imagens: []
+    imagens: ["Franzido.jpg"]
   }
 ];
 
