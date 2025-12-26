@@ -1,7 +1,7 @@
 import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
 import { Document } from 'mongoose';
 
-@Schema()
+@Schema({ collection: 'menu' })
 export class MenuItem extends Document {
   @Prop({ required: true })
   nome: string;
