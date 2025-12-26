@@ -1,31 +1,13 @@
 {
-  "name": "cardapio-api",
-  "version": "1.0.0",
-  "main": "dist/main.js",
-  "description": "API REST para gerenciamento de cardápio digital com Node.js e Express",
   "scripts": {
-    "build": "node_modules/.bin/nest build",
+    "build": "nest build",
     "start": "node dist/main",
     "start:dev": "nest start --watch",
-    "start:debug": "nest start --debug --watch",
     "start:prod": "node dist/main"
   },
-  "keywords": [
-    "cardapio",
-    "menu",
-    "api",
-    "express",
-    "nodejs"
-  ],
-  "author": "Seu Nome",
-  "license": "ISC",
-  "engines": {
-    "node": ">=14.0.0",
-    "npm": ">=6.0.0"
-  },
   "dependencies": {
-    "@nestjs/common": "^11.1.10",
     "@nestjs/cli": "^11.0.14",
+    "@nestjs/common": "^11.1.10",
     "@nestjs/config": "^4.0.2",
     "@nestjs/core": "^11.1.10",
     "@nestjs/mapped-types": "^2.1.0",
@@ -38,14 +20,14 @@
     "express": "^5.2.1",
     "mongoose": "^9.0.2",
     "reflect-metadata": "^0.2.2",
-    "rxjs": "^7.8.2"
+    "rxjs": "^7.8.2",
+    "typescript": "^5.9.3"
   },
   "devDependencies": {
     "@nestjs/schematics": "^11.0.9",
     "@types/node": "^25.0.3",
     "ts-loader": "^9.5.4",
     "ts-node": "^10.9.2",
-    "tsconfig-paths": "^4.2.0",
-    "typescript": "^5.9.3"
+    "tsconfig-paths": "^4.2.0"
   }
 }
