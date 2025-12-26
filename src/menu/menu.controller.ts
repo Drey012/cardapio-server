@@ -14,6 +14,15 @@ import { MenuService } from './menu.service';
 import { CreateMenuItemDto } from './dto/create-menu-item.dto';
 import { UpdateMenuItemDto } from './dto/update-menu-item.dto';
 
+/*Adicione um endpoint '/health' para conferir se o servidor está online*/
+@Controller('health')
+export class HealthController {
+  @Get()
+  checkHealth(): string {
+    return 'OK';
+  }
+}
+
 @Controller('api/menu')
 export class MenuController {
   constructor(private readonly menuService: MenuService) {}

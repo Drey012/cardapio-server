@@ -1,6 +1,6 @@
 import { Module } from '@nestjs/common';
 import { MongooseModule } from '@nestjs/mongoose';
-import { MenuController } from './menu.controller';
+import { MenuController, HealthController } from './menu.controller';
 import { MenuService } from './menu.service';
 import { MenuItem, MenuItemSchema } from './schemas/menu-item.schema';
 
@@ -10,7 +10,7 @@ import { MenuItem, MenuItemSchema } from './schemas/menu-item.schema';
       { name: MenuItem.name, schema: MenuItemSchema },
     ]),
   ],
-  controllers: [MenuController],
+  controllers: [MenuController, HealthController],
   providers: [MenuService],
 })
 export class MenuModule {}
