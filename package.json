@@ -4,8 +4,8 @@
   "main": "dist/main.js",
   "description": "API REST para gerenciamento de cardápio digital com Node.js e Express",
   "scripts": {
-    "build": "nest build",
-    "start": "nest start",
+    "build": "node_modules/.bin/nest build",
+    "start": "node dist/main",
     "start:dev": "nest start --watch",
     "start:debug": "nest start --debug --watch",
     "start:prod": "node dist/main"

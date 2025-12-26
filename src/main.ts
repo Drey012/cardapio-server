@@ -10,7 +10,7 @@ async function bootstrap() {
     origin: [
       'http://localhost:4200',
       'http://localhost:3000',
-      'https://*.vercel.app',
+      'https://angular-menu.vercel.app',
       process.env.FRONTEND_URL,
     ],
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
@@ -21,7 +21,7 @@ async function bootstrap() {
   app.useGlobalPipes(new ValidationPipe());
 
   const port = process.env.PORT || 3000;
-  await app.listen(port);
-  console.log(`🍽️  API Cardápio rodando em http://localhost:${port}`);
+  await app.listen(port, '0.0.0.0');
+  console.log(`API Cardápio rodando em http://localhost:${port}`);
 }
 bootstrap();
