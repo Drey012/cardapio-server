@@ -25,6 +25,7 @@
   },
   "dependencies": {
     "@nestjs/common": "^11.1.10",
+    "@nestjs/cli": "^11.0.14",
     "@nestjs/config": "^4.0.2",
     "@nestjs/core": "^11.1.10",
     "@nestjs/mapped-types": "^2.1.0",
@@ -40,7 +41,6 @@
     "rxjs": "^7.8.2"
   },
   "devDependencies": {
-    "@nestjs/cli": "^11.0.14",
     "@nestjs/schematics": "^11.0.9",
     "@types/node": "^25.0.3",
     "ts-loader": "^9.5.4",
